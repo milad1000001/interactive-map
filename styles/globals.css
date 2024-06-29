@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply flex items-center justify-center p-10;
+}
+.spinner {
+  @apply w-12 h-12 border-4 rounded-lg inline-block box-border animate-spin;
+}
+.leaflet-control-attribution {
+  @apply hidden;
+}
